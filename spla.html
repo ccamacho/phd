@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+<div>
+  <section>
+    <h1>A formal framework for software product lines</h1>
+  </section>
+  <section>
+  <h2>
+  Abstract
+  </h2>
+  <p>
+  A Software Product Line is a set of software systems that are built from a common set of
+  features. These systems are developed in a prescribed way and they can be adapted to fit the needs of
+  customers. Feature models specify the properties of the systems that are meaningful to customers.
+  A semantics that models the feature level has the potential to support the automatic analysis of entire
+  software product lines.
+  </p>
+  <p>
+  The objective of this paper is to define a formal framework for Software Product Lines. This
+  framework needs to be general enough to provide a formal semantics for existing frameworks like FODA
+  (Feature Oriented Domain Analysis), but also to be easily adaptable to new problems.
+  Method: We define an algebraic language, called SPLA, to describe Software Product Lines. We provide
+  the semantics for the algebra in three different ways. The approach followed to give the semantics is
+  inspired by the semantics of process algebras. First we define an operational semantics, next a
+  denotational semantics, and finally an axiomatic semantics. We also have defined a representation of the algebra
+  into propositional logic.
+  </p>
+  <p>
+  We prove that the three semantics are equivalent. We also show how FODA diagrams can be
+  automatically translated into SPLA. Furthermore, we have developed our tool, called AT, that implements
+  the formal framework presented in this paper. This tool uses a SAT-solver to check the satisfiability of an
+  SPL.
+  </p>
+  <p>
+  This paper defines a general formal framework for software product lines. We have defined
+  three different semantics that are equivalent; this means that depending on the context we can choose
+  the most convenient approach: operational, denotational or axiomatic. The framework is flexible enough
+  because it is closely related to process algebras. Process algebras are a well-known paradigm for which
+  many extensions have been defined.
+  </p>
+  </section>
+  <section>
+     <h2>Downloads</h2>
+    <div class="grid t-hackcss-cards">
+        <div class="cell -6of12 t-hackcss-cards-cell">
+          <div class="card">
+            <header class="card-header">Article</header>
+            <div class="card-content">
+              <div class="inner">
+                <a href="{{ site.baseurl }}/resources/01_a_formal_framework_for_software_product_lines.pdf" title="Article" target="_blank">
+                  <img width="42"
+                       src="{{ site.baseurl }}/images/article.png" class="t-hackcss-cards-image"
+                       alt="Article"
+                       title="Article" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cell -6of12 t-hackcss-cards-cell">
+          <div class="card">
+            <header class="card-header">Implementation</header>
+            <div class="card-content">
+              <div class="inner">
+                <a href="{{ site.baseurl }}/resources/01_spla.tgz" title="Implementation" target="_blank">
+                  <img width="42"
+                       src="{{ site.baseurl }}/images/app.png" class="t-hackcss-cards-image"
+                       alt="Implementation"
+                       title="Implementation" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+</div>

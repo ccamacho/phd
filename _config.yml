@@ -1,0 +1,34 @@
+# Site settings
+title: Software Product Lines Algebra
+description: > # this means to ignore newlines until "baseurl:"
+  Software Product Lines Algebra - Project site.
+repository: https://github.com/ccamacho/phd
+baseurl: /phd  # the subpath of your site, e.g. /blog
+url: https://ccamacho.github.io  # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Sass settings
+sass:
+  style: compressed
+
+# Theme settings
+theme_mode: markdown  # choices are: 'dark', 'standard', 'markdown'
+
+# Customizations
+your_name: Carlos Camacho
+
+navigation:
+  - text: Home
+    url: /
+  - text: SPLA
+    url: /spla
+  - text: SPLAC
+    url: /splac
+  - text: SPLAP
+    url: /splap
+
+# Plugins
+gems:
+  - jekyll-seo-tag
